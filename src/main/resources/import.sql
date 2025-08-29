@@ -19,3 +19,5 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('1.0
 INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', TIMESTAMP WITH TIME ZONE '2021-11-20T03:00:00Z', 1);
 
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Nova Notificação Curso', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', false,'rota de estudo', 1);
+
+INSERT INTO tb_resource (title, description, position, img_uri, type, exernal_link, offer_id) VALUES ('HTML5 e CSS3', 'Curso de HTML5 e CSS3', 1, 'https://cdn.pixabay.com/photo/2017/08/10/03/49/html-2616264_1280.png', 1,'https://upload.wikimedia.org/wikipedia/commons/6/62/HTML5_logo_and_wordmark.svg', 1);
